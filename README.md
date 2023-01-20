@@ -17,9 +17,9 @@ Classification of Buy or Sell in HFT data with ensemble model of LightGBM and Ra
 
 #### Labels
 
-* _1s_side int
-* _3s_side int
-* _5s_side int
+* 1s side int
+* 3s side int
+* 5s side int
 
 * **The first event that will occur in the following x seconds is labeled according to its kind, where:**
 * 0 -- No price change.
