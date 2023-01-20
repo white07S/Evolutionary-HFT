@@ -60,6 +60,6 @@ Classification of Buy or Sell in HFT data with ensemble model of LightGBM and Ra
 
 * Parameter Tuning: To improve the performance of the model, it is important to fine-tune the model's parameters. Based on the search space, it is decided whether to use grid search or genetic search for lightGBM model's parameter tuning.
 
-* Grid search: **`model.lightgbm()`**model.GS_tune_lgbm() function uses grid search to tune the lightGBM model's parameters.
+* Grid search: **`model.lightgbm()`** **`model.GS_tune_lgbm()`** function uses grid search to tune the lightGBM model's parameters.
 
 * Genetic search: **`model.GA_tune_lgbm()`** function uses genetic search to tune the lightGBM model's parameters."
